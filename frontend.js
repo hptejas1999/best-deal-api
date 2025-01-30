@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, Button, FlatList, ActivityIndicator, StyleSheet } from 'react-native';
 
-const API_URL = 'https://your-api-url.com/search'; // Replace with your actual API URL
+const API_URL = 'https://best-deal-api-india.onrender.com/search'; // Replace with your actual API URL
 
 const App = () => {
   const [product, setProduct] = useState('');
